@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Quicksand;
+    line-height: 1.6;
+    /* background-image: linear-gradient(to bottom right, tomato, transparent); */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: url(../images/Tracé\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-attachment: fixed;
+    background-size: 90%;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+aside {
+    width: 20%;
+    height: 100%;
+    background-color: #DCE1F6;
+    float: left;
+}
+
+.aside-top {
+    height: 30%;
+    padding-top: 3rem;
+}
+
+#avatar {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.aside-top h1 {
+    color: #3a3a3a;
+    text-align: center;
+    font-size: 1.75rem;
+    padding-top: 10px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 20%;
+    background-color: rgba(255, 255, 255, .35)
+}
+
+nav ul li {
+    display: block;
+    padding: 1rem 1.4rem;
+}
+
+nav ul li a {
+    color: #3a3a3a;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+nav ul li:hover {
+    background-color: white;
+}
+
+main {
+    width: 80%;
+}
+
+main .content-box {
+    display: block;
+    margin-left: 40%;
+    padding-top: 10%;
+}
+
+main h1 {
+    font-size: 3.5rem;
+}
+
+main p {
+    text-align: justify;
+    font-size: 1rem;
+}
+
+main a {
+    display: inline-block;
+    background-color: #FFEC46;
+    text-decoration: none;
+    color: #3a3a3a;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+main a:hover {
+    background-color: transparent;
+    border: 2px solid #FFEC46;
+    border-radius: 5px;
+}
